@@ -2,12 +2,22 @@
 * {
   margin: 0;
   padding: 0; }
+a{ text-decoration:none; color:#666666;
+cursor:pointer;}
+a:hover{
+	color: orange;
+}
 
 .clearbox:after {
   display: block;
   clear: both;
   content: ""; }
-
+.clearbox>li>a{
+	color: #666666;
+}
+.clearbox>li>a:hover{
+	color: orange;
+}
 .hui {
   width: 100%;
   background: #f0f0f0;
@@ -20,7 +30,6 @@
 .dade2 {
   width: 1200px;
   margin: 0 auto; }
-
 .top img {
   width: 100%; }
 
@@ -100,8 +109,6 @@
   width: 1200px;
   margin: 0 auto;
   position: relative; }
-  .zhong .zuo {
-    width: 220px; }
   .zhong .shoujii {
     color: white;
     width: 200px;
@@ -241,12 +248,13 @@
     .jiadian .jia .pp2 {
       float: left;
       margin-left: 920px; }
+      .jiadian .jia .pp2:hover{
+      	color: orange;
+      }
   .jiadian .zuo {
     width: 240px;
     float: left; }
-    .zuo:hover{
-    	background: orange;
-    }
+
     .jiadian .zuo .zuos img {
       width: 97%; }
     .jiadian .zuo .zuox {
@@ -542,7 +550,7 @@
     margin: 0 auto; }
     .yuyue ul li {
       float: left;
-      padding: 0px 50px;
+      padding: 0px 48px;
       border-right: 1px solid gray;
       text-align: center; }
 
@@ -599,3 +607,4 @@
   color: gray;
   font-size: 20px;
   text-align: center; }
+
